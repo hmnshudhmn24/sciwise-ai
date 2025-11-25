@@ -6,7 +6,7 @@ It provides a clean starting point with placeholders for real models, datasets, 
 
 You can plug in **your own embeddings**, **LLM**, **retriever**, and **scientific corpus** while keeping the project structure simple and extensible.
 
----
+
 
 ## 🚀 Features
 
@@ -22,7 +22,7 @@ You can plug in **your own embeddings**, **LLM**, **retriever**, and **scientifi
 - Fully editable template — replace placeholder logic with production components  
 - Clean folder layout for rapid prototyping and expansion
 
----
+
 
 ## 🗂 Directory Structure
 
@@ -48,7 +48,7 @@ sciwise-ai/
 └── data/
 ```
 
----
+
 
 ## ⚡ Quickstart
 
@@ -72,7 +72,7 @@ python src/app/gradio_ui.py
 uvicorn src.app.api:app --reload
 ```
 
----
+
 
 ## 🔧 How to Customize
 
@@ -88,20 +88,8 @@ Modify `src/rag_pipeline.py`.
 ### Add a real scientific dataset  
 Place your PDFs into `data/`.
 
----
 
 ## 🧱 Architecture Overview
 
 Scientific Docs → Loader → Chunker → Embedder → Vector DB → Retriever → LLM → Response
 
----
-
-## 📌 Requirements
-
-See `requirements.txt`.
-
----
-
-## 📄 License
-
-MIT License.
