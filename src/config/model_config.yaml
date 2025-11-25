@@ -1,0 +1,10 @@
+base_model: "meta-llama/Llama-2-7b-chat"  # placeholder
+lora:
+  r: 8
+  alpha: 32
+  dropout: 0.05
+max_source_length: 2048
+max_target_length: 512
+learning_rate: 2e-4
+batch_size: 1
+num_train_epochs: 1

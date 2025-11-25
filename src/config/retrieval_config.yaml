@@ -1,0 +1,5 @@
+embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
+index_path: "experiments/faiss_index"
+chunk_size: 1000
+chunk_overlap: 200
+top_k: 5

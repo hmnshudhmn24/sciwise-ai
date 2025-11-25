@@ -1,0 +1,5 @@
+output_dir: experiments/checkpoints
+logging_dir: experiments/logs
+save_steps: 500
+eval_steps: 500
+logging_steps: 100
